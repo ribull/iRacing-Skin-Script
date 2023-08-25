@@ -27,7 +27,8 @@ The script relies on a file structure in order to prevent it from running _every
 The script will not run if there is not an `iracing_skins_script_config.json` in the folder above the folder that the PSD file is in. This prevents the script from running for _every_ photoshop file you're working on, even if it has nothing to do with iRacing skins.
 
 Firstly, set up your file structure. Place the `iracing_skins_script_config.json` file in a folder, then create a new folder in that same directory with the name of the car that iRacing uses. You can find a list of those names on [Trading Paints](https://www.tradingpaints.com/cartemplates) or in your own Documents/iRacing/paints folder:
-(![Screenshot iRacing Trading Paints Car ID Example](https://github.com/ribull/iRacing-Skin-Script/assets/28760805/09f4c68a-cf1e-49c6-adfa-c222a2114d6e)
+
+![Screenshot iRacing Trading Paints Car ID Example](https://github.com/ribull/iRacing-Skin-Script/assets/28760805/09f4c68a-cf1e-49c6-adfa-c222a2114d6e)
 You will create the photoshop file in this car specific folder.
 
 Secondly, modify the config file (`iracing_skins_script_config.json`). You can do this using any file editor, I usually use notepad. It only has two values:
