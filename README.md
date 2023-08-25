@@ -32,6 +32,7 @@ You will create the photoshop file in this car specific folder.
 
 Secondly, modify the config file (`iracing_skins_script_config.json`). You can do this using any file editor, I usually use notepad. It only has two values:
 - `iRacingId`: this is your iRacing customer ID that trading paints and iRacing use to ID all the skins. You can find the customer ID using [this guide](https://help.tradingpaints.com/kb/guide/en/how-do-i-find-my-iracing-customer-id-number-tpmha6PFJu/Steps/2458380) from trading paints, or going to trading paints, clicking the avatar in the top right, selecting `View profile`, then checking the URL. The number that appears before your name should be your iRacing customer ID.
+
 ![iRacing Customer ID Example](https://github.com/ribull/iRacing-Skin-Script/assets/28760805/5c2b25b6-d029-4e81-a858-c7504d95976f)
 - `overwriteDialog`: this can either be `true` or `false` and directs whether or not photoshop will prompt you to overwrite an existing tga file if one exists. If it's `true`, photoshop will ask you if you want to overwrite. If it's `false`, it will overwrite without prompting.
 
@@ -40,6 +41,7 @@ Thirdly, set up the script. You can actually run the script in an ad-hoc fashion
 2. In the `Photoshop Event` dropdown select `Save document`
 3. In the `Script` dropdown select `Browse...`, find wherever you downloaded `Export iRacing Targa.jsx`, select it
 4. Click Add, then Done
+
 ![Script Events Manager Image](https://github.com/ribull/iRacing-Skin-Script/assets/28760805/efa834a7-951b-4d66-8235-07368a064fd8)
 
 And that's it! The script should run and export a tga file every time you save.
